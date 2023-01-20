@@ -1,4 +1,4 @@
-@import '/utilities.scss';
+@import 'utilities.scss';
 
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap');
@@ -112,8 +112,10 @@ header {
 
      $margin-lr: 10vw;
 
-     // border: 0.5px solid #333333;
-     border-radius: 3px;
+     // border-top: 0.5px solid $blackgrayshade3;
+     // border-bottom: 0.5px solid $blackgrayshade3;
+     border: 0.5px solid $blackgrayshade3;
+     border-radius: 30px;
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -297,7 +299,7 @@ main {
 
      display: flex;
      justify-content: space-around;
-     align-items: center;
+     align-items: flex-end;
      // background: $mainbgcolor;
      // max-width: 88vw;
      margin-top: 20px;
@@ -806,7 +808,7 @@ main {
 }
 
 #einput {
-     width: 27vw;
+     width: 33vw;
      height: 50px;
      border-radius: 50px;
      // border-top-left-radius: 20px;
@@ -964,7 +966,118 @@ footer{
      }
 }
 
-
 #footerlogo{
      zoom: 30%;
 }
+
+
+
+// Media Queries
+
+
+@media all and (max-width: 600px) {
+
+
+     header{
+          zoom:60%
+     }
+
+
+     #heroimgleft{
+          zoom: 36%;
+     }
+     
+     .sec1right{
+          zoom: 36%;
+     }
+
+     // #heroimgright{
+     //      zoom: 24%;
+     // }
+
+     // #herotitle{
+     //      font-size: 17px;
+     // }
+
+     // #herotext{
+     //      display: none;
+     // }
+
+     // #mainbtn{
+     //      padding: 10px;
+     //      margin: 10px;
+     //      font-size: 15px;
+     // }   !!!Dont delete
+
+     .sec2top{
+          // zoom: 50%;
+
+          margin: 20px 8vw;
+          padding: 10px;
+
+          h3{
+               font-size: 17px;
+          }
+          
+          #pinput{
+               width: 36vw;
+               zoom: 80%;
+          }
+          
+          #pinsubmit{
+               width: 22vw;
+               zoom: 80%;
+          }
+
+          &:hover{
+               margin: 20px 6vw;
+          }
+
+     }
+
+     .sec2bottom{
+
+          display: inline-block;
+          zoom: 90%;
+          margin: 0px;
+
+          // gap: 0px;
+          // zoom: 40%;
+
+          .features{
+               margin: 30px 10px;
+               width: 450px;
+          }
+     }
+     
+     .sec3title{
+          zoom: 77%;
+     }
+
+     .sec3top {
+          zoom: 66%;
+     }
+
+     .sec3bottom{
+
+          // zoom: 60%;
+          display: inline-block;
+          padding: 50px;
+
+          h1{
+               margin: 50px;
+          }
+
+          #einput{
+               width: 80vw ;
+               text-indent: 30px;
+          }
+
+          #emailsubmit{
+               width: 24vw;
+          }
+
+     }
+
+}
+

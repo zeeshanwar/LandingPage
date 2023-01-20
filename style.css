@@ -41,7 +41,8 @@ body {
 }
 
 header {
-  border-radius: 3px;
+  border: 0.5px solid #333333;
+  border-radius: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -158,7 +159,7 @@ main {
 .section1 {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-end;
   margin-top: 20px;
   margin-left: 10vw;
   margin-right: 10vw;
@@ -473,7 +474,7 @@ main {
 }
 
 #einput {
-  width: 27vw;
+  width: 33vw;
   height: 50px;
   border-radius: 50px;
   background: #dedede;
@@ -598,4 +599,63 @@ footer {
 
 #footerlogo {
   zoom: 30%;
+}
+
+@media all and (max-width: 600px) {
+  header {
+    zoom: 60%;
+  }
+  #heroimgleft {
+    zoom: 36%;
+  }
+  .sec1right {
+    zoom: 36%;
+  }
+  .sec2top {
+    margin: 20px 8vw;
+    padding: 10px;
+  }
+  .sec2top h3 {
+    font-size: 17px;
+  }
+  .sec2top #pinput {
+    width: 36vw;
+    zoom: 80%;
+  }
+  .sec2top #pinsubmit {
+    width: 22vw;
+    zoom: 80%;
+  }
+  .sec2top:hover {
+    margin: 20px 6vw;
+  }
+  .sec2bottom {
+    display: inline-block;
+    zoom: 90%;
+    margin: 0px;
+  }
+  .sec2bottom .features {
+    margin: 30px 10px;
+    width: 450px;
+  }
+  .sec3title {
+    zoom: 77%;
+  }
+  .sec3top {
+    zoom: 66%;
+  }
+  .sec3bottom {
+    display: inline-block;
+    padding: 50px;
+  }
+  .sec3bottom h1 {
+    margin: 50px;
+  }
+  .sec3bottom #einput {
+    width: 80vw;
+    text-indent: 30px;
+  }
+  .sec3bottom #emailsubmit {
+    width: 24vw;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -1,6 +1,6 @@
 let imgs = document.getElementsByClassName('productimgbox');
 
-let heroimg = document.getElementById('heroimg');
+let heroimg = document.getElementById('heroimgleft');
 
 let mainbtn = document.getElementById('mainbtn')
 
