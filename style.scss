@@ -49,7 +49,7 @@
 :root{
      // background: $mainbgcolor;
      font-family: 'Ubuntu';
-     zoom: 88%;
+     zoom: 88%;  
 }
 
 *{
@@ -972,23 +972,29 @@ footer{
 
 
 
+
+
 // Media Queries
 
 
-@media all and (max-width: 600px) {
+
+
+// less than 450px
+
+@media all and (max-width: 450px) {
 
 
      header{
-          zoom:60%
+          zoom:50%
      }
 
 
      #heroimgleft{
-          zoom: 36%;
+          zoom: 24%;
      }
      
      .sec1right{
-          zoom: 36%;
+          zoom: 24%;
      }
 
      // #heroimgright{
@@ -1016,6 +1022,126 @@ footer{
           padding: 10px;
 
           h3{
+               font-size: 14px;
+          }
+          
+          #pinput{
+               width: 48vw;
+               zoom: 60%;
+               text-indent: 10px;
+          }
+          
+          #pinsubmit{
+               width: 29vw;
+               zoom: 60%;
+          }
+
+          &:hover{
+               margin: 20px 6vw;
+          }
+
+     }
+
+     .sec2bottom{
+
+          display: flex;
+          zoom: 50%;
+          margin: 0px;
+
+          // gap: 0px;
+          // zoom: 40%;
+
+          .features{
+               display: flex;
+               margin: 30px 10px;
+               width: 450px;
+          }
+     }
+     
+     .sec3title{
+          zoom: 77%;
+     }
+
+     .sec3top {
+          zoom: 66%;
+     }
+
+     .sec3bottom{
+
+          zoom: 80%;
+          display: inline-block;
+          padding: 50px;
+
+          h1{
+               margin: 50px;
+               font-size: 20px;
+          }
+
+          #einput{
+               
+               width: 100vw;
+               text-indent: 20px;
+          }
+
+          #emailsubmit{
+               width: 36vw;
+          }
+
+     }
+
+
+     footer{
+          zoom: 60%;
+     }
+
+}
+     
+
+
+
+     // 450px to 700px
+
+@media all and (min-width: 450px) and (max-width: 700px) {
+
+
+     header{
+          zoom:50%
+     }
+
+
+     #heroimgleft{
+          zoom: 33%;
+     }
+     
+     .sec1right{
+          zoom: 33%;
+     }
+
+     // #heroimgright{
+     //      zoom: 24%;
+     // }
+
+     // #herotitle{
+     //      font-size: 17px;
+     // }
+
+     // #herotext{
+     //      display: none;
+     // }
+
+     // #mainbtn{
+     //      padding: 10px;
+     //      margin: 10px;
+     //      font-size: 15px;
+     // }   !!!Dont delete
+
+     .sec2top{
+          // zoom: 50%;
+
+          margin: 20px 10vw;
+          padding: 10px;
+
+          h3{
                font-size: 17px;
           }
           
@@ -1030,14 +1156,125 @@ footer{
           }
 
           &:hover{
-               margin: 20px 6vw;
+               margin: 20px 8vw;
           }
 
      }
 
      .sec2bottom{
 
+          display: flex;
+          zoom: 50%;
+          margin: 0px;
+
+          // gap: 0px;
+          // zoom: 40%;
+
+          .features{
+               display: inline-block;
+               margin: 30px 10px;
+               // width: 450px;
+          }
+     }
+     
+     .sec3title{
+          zoom: 77%;
+     }
+
+     .sec3top {
+          zoom: 66%;
+     }
+
+     .sec3bottom{
+
+          // zoom: 60%;
           display: inline-block;
+          padding: 50px;
+
+          h1{
+               margin: 50px;
+          }
+
+          #einput{
+               width: 80vw ;
+               text-indent: 30px;
+          }
+
+          #emailsubmit{
+               width: 24vw;
+          }
+
+     }
+
+}
+
+
+
+     // 660px to 1000px
+
+@media all and (min-width:700px) and (max-width: 1050px) {
+
+
+     header{
+          zoom:80%
+     }
+
+
+     #heroimgleft{
+          zoom: 60%;
+     }
+     
+     .sec1right{
+          zoom: 60%;
+     }
+
+     // #heroimgright{
+     //      zoom: 24%;
+     // }
+
+     // #herotitle{
+     //      font-size: 17px;
+     // }
+
+     // #herotext{
+     //      display: none;
+     // }
+
+     // #mainbtn{
+     //      padding: 10px;
+     //      margin: 10px;
+     //      font-size: 15px;
+     // }   !!!Dont delete
+
+     .sec2top{
+          // zoom: 50%;
+
+          margin: 20px 22vw;
+          padding: 14px;
+
+          h3{
+               font-size: 17px;
+          }
+          
+          #pinput{
+               width: 24vw;
+               zoom: 80%;
+          }
+          
+          #pinsubmit{
+               width: 15vw;
+               zoom: 80%;
+          }
+
+          &:hover{
+               margin: 20px 20vw;
+          }
+
+     }
+
+     .sec2bottom{
+
+          display: flex;
           zoom: 90%;
           margin: 0px;
 
@@ -1069,12 +1306,122 @@ footer{
           }
 
           #einput{
-               width: 80vw ;
+               width: 70vw ;
                text-indent: 30px;
           }
 
           #emailsubmit{
+               width: 20vw;
+          }
+
+     }
+
+}
+
+
+
+     // more than 1050px
+
+@media all and (min-width:1050px) and (max-width: 1250px) {
+
+
+     header{
+          zoom:88%
+     }
+
+
+     #heroimgleft{
+          zoom: 80%;
+     }
+     
+     .sec1right{
+          zoom: 80%;
+     }
+
+     // #heroimgright{
+     //      zoom: 24%;
+     // }
+
+     // #herotitle{
+     //      font-size: 17px;
+     // }
+
+     // #herotext{
+     //      display: none;
+     // }
+
+     // #mainbtn{
+     //      padding: 10px;
+     //      margin: 10px;
+     //      font-size: 15px;
+     // }   !!!Dont delete
+
+     .sec2top{
+          // zoom: 50%;
+
+          margin: 20px 24vw;
+          padding: 14px;
+
+          h3{
+               font-size: 17px;
+          }
+          
+          #pinput{
                width: 24vw;
+               zoom: 80%;
+          }
+          
+          #pinsubmit{
+               width: 14vw;
+               zoom: 80%;
+          }
+
+          &:hover{
+               margin: 20px 22vw;
+          }
+
+     }
+
+     .sec2bottom{
+
+          display: flex;
+          zoom: 90%;
+          margin: 0px;
+
+          // gap: 0px;
+          // zoom: 40%;
+
+          .features{
+               margin: 30px 10px;
+               width: 450px;
+          }
+     }
+     
+     .sec3title{
+          zoom: 77%;
+     }
+
+     .sec3top {
+          zoom: 66%;
+     }
+
+     .sec3bottom{
+
+          // zoom: 60%;
+          display: inline-block;
+          padding: 50px;
+
+          h1{
+               margin: 50px;
+          }
+
+          #einput{
+               width: 70vw ;
+               text-indent: 30px;
+          }
+
+          #emailsubmit{
+               width: 20vw;
           }
 
      }

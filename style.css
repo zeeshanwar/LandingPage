@@ -601,18 +601,83 @@ footer {
   zoom: 30%;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 450px) {
   header {
-    zoom: 60%;
+    zoom: 50%;
   }
   #heroimgleft {
-    zoom: 36%;
+    zoom: 24%;
   }
   .sec1right {
-    zoom: 36%;
+    zoom: 24%;
   }
   .sec2top {
     margin: 20px 8vw;
+    padding: 10px;
+  }
+  .sec2top h3 {
+    font-size: 14px;
+  }
+  .sec2top #pinput {
+    width: 48vw;
+    zoom: 60%;
+    text-indent: 10px;
+  }
+  .sec2top #pinsubmit {
+    width: 29vw;
+    zoom: 60%;
+  }
+  .sec2top:hover {
+    margin: 20px 6vw;
+  }
+  .sec2bottom {
+    display: flex;
+    zoom: 50%;
+    margin: 0px;
+  }
+  .sec2bottom .features {
+    display: flex;
+    margin: 30px 10px;
+    width: 450px;
+  }
+  .sec3title {
+    zoom: 77%;
+  }
+  .sec3top {
+    zoom: 66%;
+  }
+  .sec3bottom {
+    zoom: 80%;
+    display: inline-block;
+    padding: 50px;
+  }
+  .sec3bottom h1 {
+    margin: 50px;
+    font-size: 20px;
+  }
+  .sec3bottom #einput {
+    width: 100vw;
+    text-indent: 20px;
+  }
+  .sec3bottom #emailsubmit {
+    width: 36vw;
+  }
+  footer {
+    zoom: 60%;
+  }
+}
+@media all and (min-width: 450px) and (max-width: 700px) {
+  header {
+    zoom: 50%;
+  }
+  #heroimgleft {
+    zoom: 33%;
+  }
+  .sec1right {
+    zoom: 33%;
+  }
+  .sec2top {
+    margin: 20px 10vw;
     padding: 10px;
   }
   .sec2top h3 {
@@ -627,10 +692,68 @@ footer {
     zoom: 80%;
   }
   .sec2top:hover {
-    margin: 20px 6vw;
+    margin: 20px 8vw;
   }
   .sec2bottom {
+    display: flex;
+    zoom: 50%;
+    margin: 0px;
+  }
+  .sec2bottom .features {
     display: inline-block;
+    margin: 30px 10px;
+  }
+  .sec3title {
+    zoom: 77%;
+  }
+  .sec3top {
+    zoom: 66%;
+  }
+  .sec3bottom {
+    display: inline-block;
+    padding: 50px;
+  }
+  .sec3bottom h1 {
+    margin: 50px;
+  }
+  .sec3bottom #einput {
+    width: 80vw;
+    text-indent: 30px;
+  }
+  .sec3bottom #emailsubmit {
+    width: 24vw;
+  }
+}
+@media all and (min-width: 700px) and (max-width: 1050px) {
+  header {
+    zoom: 80%;
+  }
+  #heroimgleft {
+    zoom: 60%;
+  }
+  .sec1right {
+    zoom: 60%;
+  }
+  .sec2top {
+    margin: 20px 22vw;
+    padding: 14px;
+  }
+  .sec2top h3 {
+    font-size: 17px;
+  }
+  .sec2top #pinput {
+    width: 24vw;
+    zoom: 80%;
+  }
+  .sec2top #pinsubmit {
+    width: 15vw;
+    zoom: 80%;
+  }
+  .sec2top:hover {
+    margin: 20px 20vw;
+  }
+  .sec2bottom {
+    display: flex;
     zoom: 90%;
     margin: 0px;
   }
@@ -652,10 +775,68 @@ footer {
     margin: 50px;
   }
   .sec3bottom #einput {
-    width: 80vw;
+    width: 70vw;
     text-indent: 30px;
   }
   .sec3bottom #emailsubmit {
+    width: 20vw;
+  }
+}
+@media all and (min-width: 1050px) and (max-width: 1250px) {
+  header {
+    zoom: 88%;
+  }
+  #heroimgleft {
+    zoom: 80%;
+  }
+  .sec1right {
+    zoom: 80%;
+  }
+  .sec2top {
+    margin: 20px 24vw;
+    padding: 14px;
+  }
+  .sec2top h3 {
+    font-size: 17px;
+  }
+  .sec2top #pinput {
     width: 24vw;
+    zoom: 80%;
+  }
+  .sec2top #pinsubmit {
+    width: 14vw;
+    zoom: 80%;
+  }
+  .sec2top:hover {
+    margin: 20px 22vw;
+  }
+  .sec2bottom {
+    display: flex;
+    zoom: 90%;
+    margin: 0px;
+  }
+  .sec2bottom .features {
+    margin: 30px 10px;
+    width: 450px;
+  }
+  .sec3title {
+    zoom: 77%;
+  }
+  .sec3top {
+    zoom: 66%;
+  }
+  .sec3bottom {
+    display: inline-block;
+    padding: 50px;
+  }
+  .sec3bottom h1 {
+    margin: 50px;
+  }
+  .sec3bottom #einput {
+    width: 70vw;
+    text-indent: 30px;
+  }
+  .sec3bottom #emailsubmit {
+    width: 20vw;
   }
 }/*# sourceMappingURL=style.css.map */
