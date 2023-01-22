@@ -776,6 +776,27 @@ main {
      }
 }
 
+
+.viewmore{
+     display: inline-block;  
+     background: $bgshade2;
+     color: $primarycolor;
+     border: 5px solid $secondaryshade1;
+     border-radius: 20px;
+     font-weight: bold;
+     padding: 12px;
+     margin: 30px;
+     font-size: 17px;
+     font-family: "Laila", sans-serif;
+     text-decoration: none;
+
+     &:hover{
+          cursor: pointer;
+          border: 5px solid #088;
+          background: $bgshade3;
+     }
+}
+
 .sec3bottom{
 
      $margin-lr: 10vw;
